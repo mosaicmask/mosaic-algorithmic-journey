@@ -20,11 +20,29 @@ export default defineUserConfig({
       "/docs/data-structure/": [
         {
           text: "前言",
-          children: ["home", "theme"],
+          children: ["home", "parsing", "statement"],
         },
         {
-          text: "module two",
+          text: "开始旅程",
           children: ["api", "plugin"],
+        },
+      ],
+      "/docs/algorithm-parsing/": [
+        {
+          text: "前言",
+          children: ["home"],
+        },
+        {
+          text: "简单",
+          children: [],
+        },
+        {
+          text: "中等",
+          children: [],
+        },
+        {
+          text: "困难",
+          children: [],
         },
       ],
     },
@@ -35,7 +53,7 @@ export default defineUserConfig({
         text: "旅程",
         children: [
           { text: "基本数据结构", link: "/docs/data-structure/home" },
-          { text: "算法解析", link: "/blogs/other/guide" },
+          { text: "算法解析", link: "/docs/algorithm-parsing/home" },
         ],
       },
       { text: "算法练习", link: "/tags/tag1/1/" },
