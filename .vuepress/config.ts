@@ -23,8 +23,16 @@ export default defineUserConfig({
           children: ["home", "parsing", "statement"],
         },
         {
-          text: "开始旅程",
-          children: ["api", "plugin"],
+          text: "JS中的数组",
+          children: ["array"],
+        },
+        {
+          text: "“栈”数据结构",
+          children: ["stack", "plugin"],
+        },
+        {
+          text: "“队列”数据结构",
+          children: ["stack", "plugin"],
         },
       ],
       "/docs/algorithm-parsing/": [
