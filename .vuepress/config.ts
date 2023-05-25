@@ -23,8 +23,12 @@ export default defineUserConfig({
           children: ["home", "parsing", "statement"],
         },
         {
-          text: "JS中的数组",
-          children: ["array"],
+          text: "JS前置知识",
+          children: ["array","string","loop"],
+        },
+        {
+          text: "算法前置知识",
+          children: ["time-complexity","spatial-complexity"],
         },
         {
           text: "“栈”数据结构",
