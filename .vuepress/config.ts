@@ -32,7 +32,7 @@ export default defineUserConfig({
         },
         {
           text: "“栈”数据结构",
-          children: ["stack", "plugin"],
+          children: ["stack", "algorithmic-contact-stack"],
         },
         {
           text: "“队列”数据结构",
